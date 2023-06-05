@@ -45,7 +45,15 @@ body{
     border-color: black;
     // align-items: center;
 }
-@media (min-width:1200px){
+@media (min-width:1835px){
+.child1,.child2,.child3,.child4,.child9,.child10,.child11,.child12{
+    animation: left-to-right 1s ease-in-out forwards infinite alternate-reverse ;
+}
+.child5,.child6,.child7,.child8{
+    animation: left-to-right 1s ease-in-out forwards infinite alternate-reverse 1s;
+}
+}
+@media (max-width:1835px){
     .child1,.child2,.child3,.child7,.child8,.child9{
         animation: left-to-right 1s ease-in-out forwards infinite alternate-reverse ;
     }
